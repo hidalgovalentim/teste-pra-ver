@@ -1,5 +1,8 @@
 
 
+
+#esse plot e bonito
+
 p <-ggplot(Inventories_processado, aes(x = Ano_Inventario)) +
   geom_histogram(aes(fill = TaxGroup), alpha = 0.3, binwidth = 3, color = "black", size = 0.2) +
   geom_vline(data = medias_por_grupo, 
